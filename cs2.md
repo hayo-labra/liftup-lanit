@@ -16,16 +16,12 @@ Serverin konsolinäkymän saat avattua komennolla `./cs2server console`. Avautuv
  - `mp_warmup_start` - Käynnistää kahden minuutin lämmittelyn.
  - `mp_warmup_end` - Lopettaa lämmittelyn ja aloittaa turnauksen.
  - `changelevel` - Vaihtaa turnauksessa pelattavan kentän. Valittavana on seuraavat kentät, ⚔-symbolilla merkityt ovat tasapainoisia kenttiä, muissa kentissä saattaa painottaa enemmän toista osapuolta.
-	 - `changelevel de-ancient`
-	 - `changelevel de_anubis`
-	 - `changelevel de_assembly`
-	 - `changelevel de_dust2` ⚔
-	 - `changelevel de_inferno` ⚔
-	 - `changelevel de_memento`
-	 - `changelevel de-mills`
-	 - `changelevel de_mirage` ⚔
-	 - `changelevel de_nuke`
-	 - `changelevel de_overpass` ⚔
-	 - `changelevel de_thera`
-	 - `changelevel de_vertigo`
-	 - `changelevel de_train`
+	 - `changelevel de_ancient` (kilpailu)
+	 - `changelevel de_anubis` (community)
+	 - `changelevel de_dust2` ⚔ (kilpailu)
+	 - `changelevel de_inferno` ⚔ (kilpailu)
+	 - `changelevel de_mirage` ⚔ (kilpailu)
+	 - `changelevel de_nuke` (kilpailu)
+	 - `changelevel de_overpass` ⚔ (kilpailu)
+	 - `changelevel de_vertigo` (community)
+	 - `changelevel de_train` (kilpailu)
