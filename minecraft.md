@@ -1,24 +1,28 @@
 # Minecraft Build Battle -serveri
 
-IP: 192.168.1.11/24
+IP: 192.168.1.5/24
 
-Minecraft Build Battle -serveri on rakennettu Windows 10 -asennuksen päälle. Palvelimelle on asennettu seuraavat palikat:
+Minecraft Build Battle -serveri on rakennettu pterodactyl -asennuksen päälle. Palvelimelle on asennettu seuraavat palikat:
  - Purpur-server 
  - BuildBattle-plugin (BuildBattle-ympäristö)
  - LuckPerms-plugin  (oikeuksien jako)
  - WorldEdit-plugin (voi käyttää maailmojen rakentamiseen, WorldGuard vaatii toimiakseen)
  - WorldGuard-plugin (suojaa maailman tahattomalta rikkomiselta)
 
-## Palvelimen etäkäyttö
+## Palvelimen käyttö
 
-Ota Remote Desktop -yhteys palvelimelle, anna osoitteeksi palvelimen IP-osoite ja kirjautumistiedoiksi käyttäjänimi ja salasana.
+Avaa selaimessa pterodactyl paneeli osoiteesta http://192.168.1.5 ja kirjaudu sisään. Kirjauduttuasi sisään valitse paneelista minecraft server.
 
 ## Serverin käynnistys
 
-Käynnistä serveri työpöydän tuplaklikkaamalla *Minecraft BuildBattle -server* -pikakuvaketta.
+Käynnistä serveri klikkaamalla paneelista start
 
 ## Serverin käyttö
 
+
+## serverille liittyminen
+
+pelaajat tarvitsevat minecraft version 1.21 Serverille liitytään minecraftin multiplayer kohdasta jossa lisätään severi ja annetaan osoiteeksi 192.168.1.5:25565.
 ### Pääkäyttäjän oikeuksien antaminen
 
 Pelin sisällä pelaajalle voi antaa oikeudet vain jos pelaaja on jo serverillä. 
@@ -29,7 +33,7 @@ Pelin sisällä pelaajalle voi antaa oikeudet vain jos pelaaja on jo serverillä
 
 Asetuksissa pääset muokkaamaan mm. kuinka monta pelaajaa kilpailuun voi maksimissaan ja minimissään osallistua. Käyttäjällä tulee olla pääkäyttäjän oikeudet, anna ne tarvittaessa ennen.
 
-Anna konsolissa komento `/bba setup edit LIFTUP`. 
+Anna konsolissa komento `/bba setup edit liftup`. 
 
 ### Aiheiden vaihto
 
@@ -41,7 +45,7 @@ Kun peli on käynnisssä, niin sinne liittyvä pelaaja on automaattisesti specta
 
 ## Serverin sammutus
 
-Anna konsolissa komento `stop`.
+Paina paneelissa stop nappia sammutaaksesi serverin.
 
 ## Kilpailun kulku
 
@@ -71,7 +75,7 @@ Anna konsolissa komento `stop`.
 
    Ennen päivitystä tehdään varmuuskopio nykyisistä tiedostoista. Varmista, että server ei päällä, kun teet päivityksen.
   
-   Tee kopio *server*-kansiosta ja anna sille nimeksi `server-backup-YYYYMMDD`. Esimerkiksi 17.10.2024 varmuuskopiokansion nimeksi tulisi `server-backup-20241017`.
+   Tee kopio *paneelista backup kohdasta* ja anna sille nimeksi `server-backup-YYYYMMDD`. Esimerkiksi 17.10.2024 varmuuskopiokansion nimeksi tulisi `server-backup-20241017`.
 
 2. Purpur-serverin päivitys
  
