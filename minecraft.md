@@ -19,15 +19,14 @@ Käynnistä serveri klikkaamalla paneelista start
 
 ## Serverin käyttö
 
+Pelin sisällä pelaajalle voi antaa oikeudet vain jos pelaaja on jo serverillä. 
+ - Pelin sisäinen komento on `/op pelaajanimi`. 
+ - Konsolissa komento on `op pelaajanimi`.
 
 ## serverille liittyminen
 
 pelaajat tarvitsevat minecraft version 1.21 Serverille liitytään minecraftin multiplayer kohdasta jossa lisätään severi ja annetaan osoiteeksi 192.168.1.5:25565.
 ### Pääkäyttäjän oikeuksien antaminen
-
-Pelin sisällä pelaajalle voi antaa oikeudet vain jos pelaaja on jo serverillä. 
- - Pelin sisäinen komento on `/op pelaajanimi`. 
- - Konsolissa komento on `op pelaajanimi`.
 
 ### BuilbBattle -asetusten muokkaus
 
